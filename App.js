@@ -8,7 +8,9 @@ import IssLocationScreen from "./screens/IssLocation";
 import MeteorScreen from "./screens/Meteors";
 import UpdateScreen from "./screens/Updates";
 
+
 const Stack = createStackNavigator();
+
 
 function App() {
   return (
@@ -24,5 +26,6 @@ function App() {
     </NavigationContainer>
   );
 }
+
 
 export default App;
